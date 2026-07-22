@@ -1,0 +1,223 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/opt/openclaw/work/***/1/.agents/content-creator-1/content-creator/.openclaw/tmp/.npmrc
+5 silly config load:file:/opt/openclaw/work/***/1/.agents/content-creator-1/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install pdfkit
+8 verbose argv "install" "pdfkit" "--loglevel" "silent"
+9 verbose logfile logs-max:10 dir:/opt/openclaw/work/***/1/.agents/content-creator-1/.npm/_logs/2026-07-22T23_43_47_716Z-
+10 verbose logfile /opt/openclaw/work/***/1/.agents/content-creator-1/.npm/_logs/2026-07-22T23_43_47_716Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2254438400 maxSize:563609600 maxEntrySize:281804800
+13 silly idealTree buildDeps
+14 silly fetch manifest pdfkit@*
+15 silly packumentCache full:https://registry.npmjs.org/pdfkit cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/pdfkit 80ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/pdfkit set size:undefined disposed:false
+18 silly placeDep ROOT pdfkit@0.19.1 OK for: tmp@1.0.0 want: *
+19 silly fetch manifest @noble/ciphers@^1.0.0
+20 silly packumentCache full:https://registry.npmjs.org/@noble%2fciphers cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@noble%2fciphers 40ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@noble%2fciphers set size:undefined disposed:false
+23 silly fetch manifest @noble/hashes@^1.6.0
+24 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 39ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes set size:undefined disposed:false
+27 silly fetch manifest fontkit@^2.0.4
+28 silly packumentCache full:https://registry.npmjs.org/fontkit cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/fontkit 25ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/fontkit set size:undefined disposed:false
+31 silly fetch manifest js-md5@^0.8.3
+32 silly packumentCache full:https://registry.npmjs.org/js-md5 cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/js-md5 23ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/js-md5 set size:undefined disposed:false
+35 silly fetch manifest linebreak@^1.1.0
+36 silly packumentCache full:https://registry.npmjs.org/linebreak cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/linebreak 21ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/linebreak set size:undefined disposed:false
+39 silly fetch manifest png-js@^1.1.0
+40 silly packumentCache full:https://registry.npmjs.org/png-js cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/png-js 58ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/png-js set size:undefined disposed:false
+43 silly placeDep ROOT @noble/ciphers@1.3.0 OK for: pdfkit@0.19.1 want: ^1.0.0
+44 silly placeDep ROOT @noble/hashes@1.8.0 OK for: pdfkit@0.19.1 want: ^1.6.0
+45 silly placeDep ROOT fontkit@2.0.4 OK for: pdfkit@0.19.1 want: ^2.0.4
+46 silly placeDep ROOT js-md5@0.8.3 OK for: pdfkit@0.19.1 want: ^0.8.3
+47 silly placeDep ROOT linebreak@1.1.0 OK for: pdfkit@0.19.1 want: ^1.1.0
+48 silly placeDep ROOT png-js@1.1.0 OK for: pdfkit@0.19.1 want: ^1.1.0
+49 silly fetch manifest @swc/helpers@^0.5.12
+50 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 84ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:undefined disposed:false
+53 silly fetch manifest brotli@^1.3.2
+54 silly packumentCache full:https://registry.npmjs.org/brotli cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/brotli 60ms (cache miss)
+56 silly packumentCache full:https://registry.npmjs.org/brotli set size:undefined disposed:false
+57 silly fetch manifest clone@^2.1.2
+58 silly packumentCache full:https://registry.npmjs.org/clone cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/clone 22ms (cache miss)
+60 silly packumentCache full:https://registry.npmjs.org/clone set size:undefined disposed:false
+61 silly fetch manifest dfa@^1.2.0
+62 silly packumentCache full:https://registry.npmjs.org/dfa cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/dfa 62ms (cache miss)
+64 silly packumentCache full:https://registry.npmjs.org/dfa set size:undefined disposed:false
+65 silly fetch manifest fast-deep-equal@^3.1.3
+66 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal cache-miss
+67 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 22ms (cache miss)
+68 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal set size:undefined disposed:false
+69 silly fetch manifest restructure@^3.0.0
+70 silly packumentCache full:https://registry.npmjs.org/restructure cache-miss
+71 http fetch GET 200 https://registry.npmjs.org/restructure 22ms (cache miss)
+72 silly packumentCache full:https://registry.npmjs.org/restructure set size:undefined disposed:false
+73 silly fetch manifest tiny-inflate@^1.0.3
+74 silly packumentCache full:https://registry.npmjs.org/tiny-inflate cache-miss
+75 http fetch GET 200 https://registry.npmjs.org/tiny-inflate 19ms (cache miss)
+76 silly packumentCache full:https://registry.npmjs.org/tiny-inflate set size:undefined disposed:false
+77 silly fetch manifest unicode-properties@^1.4.0
+78 silly packumentCache full:https://registry.npmjs.org/unicode-properties cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/unicode-properties 19ms (cache miss)
+80 silly packumentCache full:https://registry.npmjs.org/unicode-properties set size:undefined disposed:false
+81 silly fetch manifest unicode-trie@^2.0.0
+82 silly packumentCache full:https://registry.npmjs.org/unicode-trie cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/unicode-trie 21ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/unicode-trie set size:undefined disposed:false
+85 silly fetch manifest base64-js@0.0.8
+86 silly packumentCache full:https://registry.npmjs.org/base64-js cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/base64-js 21ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/base64-js set size:undefined disposed:false
+89 silly fetch manifest browserify-zlib@^0.2.0
+90 silly packumentCache full:https://registry.npmjs.org/browserify-zlib cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/browserify-zlib 20ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/browserify-zlib set size:undefined disposed:false
+93 silly placeDep ROOT @swc/helpers@0.5.23 OK for: fontkit@2.0.4 want: ^0.5.12
+94 silly placeDep ROOT brotli@1.3.3 OK for: fontkit@2.0.4 want: ^1.3.2
+95 silly placeDep ROOT clone@2.1.2 OK for: fontkit@2.0.4 want: ^2.1.2
+96 silly placeDep ROOT dfa@1.2.0 OK for: fontkit@2.0.4 want: ^1.2.0
+97 silly placeDep ROOT fast-deep-equal@3.1.3 OK for: fontkit@2.0.4 want: ^3.1.3
+98 silly placeDep ROOT restructure@3.0.2 OK for: fontkit@2.0.4 want: ^3.0.0
+99 silly placeDep ROOT tiny-inflate@1.0.3 OK for: fontkit@2.0.4 want: ^1.0.3
+100 silly placeDep ROOT unicode-properties@1.4.1 OK for: fontkit@2.0.4 want: ^1.4.0
+101 silly placeDep ROOT unicode-trie@2.0.0 OK for: fontkit@2.0.4 want: ^2.0.0
+102 silly fetch manifest tslib@^2.8.0
+103 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/tslib 28ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+106 silly fetch manifest base64-js@^1.1.2
+107 silly packumentCache full:https://registry.npmjs.org/base64-js cache-miss
+108 http cache https://registry.npmjs.org/base64-js 7ms (cache hit)
+109 silly packumentCache full:https://registry.npmjs.org/base64-js set size:41270 disposed:false
+110 silly fetch manifest base64-js@^1.3.0
+111 silly packumentCache full:https://registry.npmjs.org/base64-js cache-hit
+112 silly fetch manifest pako@^0.2.5
+113 silly packumentCache full:https://registry.npmjs.org/pako cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/pako 58ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/pako set size:undefined disposed:false
+116 silly placeDep ROOT tslib@2.8.1 OK for: @swc/helpers@0.5.23 want: ^2.8.0
+117 silly placeDep ROOT base64-js@1.5.1 OK for: brotli@1.3.3 want: ^1.1.2
+118 silly placeDep node_modules/linebreak base64-js@0.0.8 OK for: linebreak@1.1.0 want: 0.0.8
+119 silly placeDep ROOT browserify-zlib@0.2.0 OK for: png-js@1.1.0 want: ^0.2.0
+120 silly fetch manifest pako@~1.0.5
+121 silly packumentCache full:https://registry.npmjs.org/pako cache-miss
+122 http cache https://registry.npmjs.org/pako 3ms (cache hit)
+123 silly packumentCache full:https://registry.npmjs.org/pako set size:82149 disposed:false
+124 silly placeDep ROOT pako@1.0.11 OK for: browserify-zlib@0.2.0 want: ~1.0.5
+125 silly placeDep node_modules/unicode-trie pako@0.2.9 OK for: unicode-trie@2.0.0 want: ^0.2.5
+126 silly reify moves {}
+127 silly audit bulk request {
+127 silly audit   pdfkit: [ '0.19.1' ],
+127 silly audit   '@noble/ciphers': [ '1.3.0' ],
+127 silly audit   '@noble/hashes': [ '1.8.0' ],
+127 silly audit   fontkit: [ '2.0.4' ],
+127 silly audit   'js-md5': [ '0.8.3' ],
+127 silly audit   linebreak: [ '1.1.0' ],
+127 silly audit   'png-js': [ '1.1.0' ],
+127 silly audit   '@swc/helpers': [ '0.5.23' ],
+127 silly audit   brotli: [ '1.3.3' ],
+127 silly audit   clone: [ '2.1.2' ],
+127 silly audit   dfa: [ '1.2.0' ],
+127 silly audit   'fast-deep-equal': [ '3.1.3' ],
+127 silly audit   restructure: [ '3.0.2' ],
+127 silly audit   'tiny-inflate': [ '1.0.3' ],
+127 silly audit   'unicode-properties': [ '1.4.1' ],
+127 silly audit   'unicode-trie': [ '2.0.0' ],
+127 silly audit   tslib: [ '2.8.1' ],
+127 silly audit   'base64-js': [ '1.5.1', '0.0.8' ],
+127 silly audit   'browserify-zlib': [ '0.2.0' ],
+127 silly audit   pako: [ '1.0.11', '0.2.9' ]
+127 silly audit }
+128 http cache pako@https://registry.npmjs.org/pako/-/pako-1.0.11.tgz 0ms (cache hit)
+129 http cache browserify-zlib@https://registry.npmjs.org/browserify-zlib/-/browserify-zlib-0.2.0.tgz 0ms (cache hit)
+130 http cache base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 0ms (cache hit)
+131 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+132 http cache unicode-trie@https://registry.npmjs.org/unicode-trie/-/unicode-trie-2.0.0.tgz 0ms (cache hit)
+133 http cache unicode-properties@https://registry.npmjs.org/unicode-properties/-/unicode-properties-1.4.1.tgz 0ms (cache hit)
+134 http cache restructure@https://registry.npmjs.org/restructure/-/restructure-3.0.2.tgz 0ms (cache hit)
+135 http cache tiny-inflate@https://registry.npmjs.org/tiny-inflate/-/tiny-inflate-1.0.3.tgz 0ms (cache hit)
+136 http cache fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 0ms (cache hit)
+137 http cache dfa@https://registry.npmjs.org/dfa/-/dfa-1.2.0.tgz 0ms (cache hit)
+138 http cache clone@https://registry.npmjs.org/clone/-/clone-2.1.2.tgz 0ms (cache hit)
+139 http cache brotli@https://registry.npmjs.org/brotli/-/brotli-1.3.3.tgz 0ms (cache hit)
+140 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz 0ms (cache hit)
+141 http cache png-js@https://registry.npmjs.org/png-js/-/png-js-1.1.0.tgz 0ms (cache hit)
+142 http cache linebreak@https://registry.npmjs.org/linebreak/-/linebreak-1.1.0.tgz 0ms (cache hit)
+143 http cache js-md5@https://registry.npmjs.org/js-md5/-/js-md5-0.8.3.tgz 0ms (cache hit)
+144 http cache fontkit@https://registry.npmjs.org/fontkit/-/fontkit-2.0.4.tgz 0ms (cache hit)
+145 http cache @noble/hashes@https://registry.npmjs.org/@noble/hashes/-/hashes-1.8.0.tgz 0ms (cache hit)
+146 http cache @noble/ciphers@https://registry.npmjs.org/@noble/ciphers/-/ciphers-1.3.0.tgz 0ms (cache hit)
+147 http cache pdfkit@https://registry.npmjs.org/pdfkit/-/pdfkit-0.19.1.tgz 0ms (cache hit)
+148 http cache pako@https://registry.npmjs.org/pako/-/pako-0.2.9.tgz 0ms (cache hit)
+149 http cache base64-js@https://registry.npmjs.org/base64-js/-/base64-js-0.0.8.tgz 0ms (cache hit)
+150 silly tarball no local data for pako@https://registry.npmjs.org/pako/-/pako-1.0.11.tgz. Extracting by manifest.
+151 silly tarball no local data for browserify-zlib@https://registry.npmjs.org/browserify-zlib/-/browserify-zlib-0.2.0.tgz. Extracting by manifest.
+152 silly tarball no local data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz. Extracting by manifest.
+153 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+154 silly tarball no local data for unicode-trie@https://registry.npmjs.org/unicode-trie/-/unicode-trie-2.0.0.tgz. Extracting by manifest.
+155 silly tarball no local data for unicode-properties@https://registry.npmjs.org/unicode-properties/-/unicode-properties-1.4.1.tgz. Extracting by manifest.
+156 silly tarball no local data for restructure@https://registry.npmjs.org/restructure/-/restructure-3.0.2.tgz. Extracting by manifest.
+157 silly tarball no local data for tiny-inflate@https://registry.npmjs.org/tiny-inflate/-/tiny-inflate-1.0.3.tgz. Extracting by manifest.
+158 silly tarball no local data for fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz. Extracting by manifest.
+159 silly tarball no local data for dfa@https://registry.npmjs.org/dfa/-/dfa-1.2.0.tgz. Extracting by manifest.
+160 silly tarball no local data for clone@https://registry.npmjs.org/clone/-/clone-2.1.2.tgz. Extracting by manifest.
+161 silly tarball no local data for brotli@https://registry.npmjs.org/brotli/-/brotli-1.3.3.tgz. Extracting by manifest.
+162 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz. Extracting by manifest.
+163 silly tarball no local data for png-js@https://registry.npmjs.org/png-js/-/png-js-1.1.0.tgz. Extracting by manifest.
+164 silly tarball no local data for linebreak@https://registry.npmjs.org/linebreak/-/linebreak-1.1.0.tgz. Extracting by manifest.
+165 silly tarball no local data for js-md5@https://registry.npmjs.org/js-md5/-/js-md5-0.8.3.tgz. Extracting by manifest.
+166 silly tarball no local data for fontkit@https://registry.npmjs.org/fontkit/-/fontkit-2.0.4.tgz. Extracting by manifest.
+167 silly tarball no local data for @noble/hashes@https://registry.npmjs.org/@noble/hashes/-/hashes-1.8.0.tgz. Extracting by manifest.
+168 silly tarball no local data for @noble/ciphers@https://registry.npmjs.org/@noble/ciphers/-/ciphers-1.3.0.tgz. Extracting by manifest.
+169 silly tarball no local data for pdfkit@https://registry.npmjs.org/pdfkit/-/pdfkit-0.19.1.tgz. Extracting by manifest.
+170 silly tarball no local data for pako@https://registry.npmjs.org/pako/-/pako-0.2.9.tgz. Extracting by manifest.
+171 silly tarball no local data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-0.0.8.tgz. Extracting by manifest.
+172 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 198ms
+173 silly audit report {}
+174 http fetch GET 200 https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 310ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 309ms (cache miss)
+176 http fetch GET 200 https://registry.npmjs.org/clone/-/clone-2.1.2.tgz 309ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/base64-js/-/base64-js-0.0.8.tgz 311ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/unicode-trie/-/unicode-trie-2.0.0.tgz 328ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/js-md5/-/js-md5-0.8.3.tgz 329ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/tiny-inflate/-/tiny-inflate-1.0.3.tgz 344ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/png-js/-/png-js-1.1.0.tgz 351ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/dfa/-/dfa-1.2.0.tgz 359ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/unicode-properties/-/unicode-properties-1.4.1.tgz 379ms (cache miss)
+184 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 381ms (cache miss)
+185 http fetch GET 200 https://registry.npmjs.org/linebreak/-/linebreak-1.1.0.tgz 385ms (cache miss)
+186 http fetch GET 200 https://registry.npmjs.org/browserify-zlib/-/browserify-zlib-0.2.0.tgz 405ms (cache miss)
+187 http fetch GET 200 https://registry.npmjs.org/restructure/-/restructure-3.0.2.tgz 491ms (cache miss)
+188 http fetch GET 200 https://registry.npmjs.org/pako/-/pako-0.2.9.tgz 518ms (cache miss)
+189 http fetch GET 200 https://registry.npmjs.org/pako/-/pako-1.0.11.tgz 539ms (cache miss)
+190 http fetch GET 200 https://registry.npmjs.org/brotli/-/brotli-1.3.3.tgz 535ms (cache miss)
+191 http fetch GET 200 https://registry.npmjs.org/@noble/ciphers/-/ciphers-1.3.0.tgz 640ms (cache miss)
+192 http fetch GET 200 https://registry.npmjs.org/@noble/hashes/-/hashes-1.8.0.tgz 735ms (cache miss)
+193 http fetch GET 200 https://registry.npmjs.org/pdfkit/-/pdfkit-0.19.1.tgz 760ms (cache miss)
+194 http fetch GET 200 https://registry.npmjs.org/fontkit/-/fontkit-2.0.4.tgz 832ms (cache miss)
+195 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz 883ms (cache miss)
+196 verbose cwd /opt/openclaw/work/***/1/.agents/content-creator-1/content-creator/.openclaw/tmp
+197 verbose os Linux 6.8.0-124-generic
+198 verbose node v24.18.0
+199 verbose npm  v11.16.0
+200 verbose exit 0
+201 info ok

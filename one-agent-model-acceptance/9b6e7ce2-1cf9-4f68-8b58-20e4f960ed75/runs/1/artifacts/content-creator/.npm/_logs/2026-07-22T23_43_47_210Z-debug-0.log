@@ -1,0 +1,29 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/opt/openclaw/work/***/1/.agents/content-creator-1/content-creator/.openclaw/tmp/.npmrc
+5 silly config load:file:/opt/openclaw/work/***/1/.agents/content-creator-1/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm init
+8 verbose argv "init" "--yes" "--loglevel" "silent"
+9 verbose logfile logs-max:10 dir:/opt/openclaw/work/***/1/.agents/content-creator-1/.npm/_logs/2026-07-22T23_43_47_210Z-
+10 verbose logfile /opt/openclaw/work/***/1/.agents/content-creator-1/.npm/_logs/2026-07-22T23_43_47_210Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly package data {
+12 silly package data   name: 'tmp',
+12 silly package data   version: '1.0.0',
+12 silly package data   description: '',
+12 silly package data   main: 'index.js',
+12 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+12 silly package data   keywords: [],
+12 silly package data   author: '',
+12 silly package data   license: 'ISC',
+12 silly package data   type: 'commonjs'
+12 silly package data }
+13 verbose cwd /opt/openclaw/work/***/1/.agents/content-creator-1/content-creator/.openclaw/tmp
+14 verbose os Linux 6.8.0-124-generic
+15 verbose node v24.18.0
+16 verbose npm  v11.16.0
+17 verbose exit 0
+18 info ok
