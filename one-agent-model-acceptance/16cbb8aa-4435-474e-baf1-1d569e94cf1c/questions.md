@@ -1,6 +1,5 @@
 # Questions
 
-## Round 1
+## Round 2
 
-1. What is the approved headcount number?
-2. What is the approved capex number?
+1. What is the approved capex number?
