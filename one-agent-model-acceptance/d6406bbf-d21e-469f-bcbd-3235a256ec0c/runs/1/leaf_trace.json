@@ -1,0 +1,41 @@
+{
+  "schema": "matrix-leaf-trace/1",
+  "task_id": "d6406bbf-d21e-469f-bcbd-3235a256ec0c",
+  "attempt_no": 1,
+  "orchestrator": {
+    "skill": "matrix-orchestrator",
+    "model": "gpt-4o",
+    "delegated_to": [
+      "weather"
+    ]
+  },
+  "leaves": [
+    {
+      "skill": "weather",
+      "model": "anthropic/claude-sonnet-5",
+      "provider": "anthropic",
+      "allow_hosts": [
+        "api.open-meteo.com",
+        "geocoding-api.open-meteo.com"
+      ],
+      "tools": [
+        {
+          "name": "find_place",
+          "calls": 1,
+          "ok": 1,
+          "errors": 0
+        },
+        {
+          "name": "current_weather",
+          "calls": 1,
+          "ok": 1,
+          "errors": 0
+        }
+      ],
+      "wrote": [],
+      "promoted": [
+        "weather/weather.md"
+      ]
+    }
+  ]
+}
