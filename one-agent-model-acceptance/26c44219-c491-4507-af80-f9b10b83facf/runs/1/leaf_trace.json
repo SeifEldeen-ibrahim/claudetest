@@ -1,0 +1,33 @@
+{
+  "schema": "matrix-leaf-trace/1",
+  "task_id": "26c44219-c491-4507-af80-f9b10b83facf",
+  "attempt_no": 1,
+  "orchestrator": {
+    "skill": "matrix-orchestrator",
+    "model": "gpt-4o",
+    "delegated_to": [
+      "content-creator",
+      "coding"
+    ]
+  },
+  "leaves": [
+    {
+      "skill": "content-creator",
+      "model": "anthropic/claude-sonnet-5",
+      "provider": null,
+      "allow_hosts": [],
+      "tools": [],
+      "wrote": [],
+      "promoted": []
+    },
+    {
+      "skill": "coding",
+      "model": "anthropic/claude-sonnet-5",
+      "provider": null,
+      "allow_hosts": [],
+      "tools": [],
+      "wrote": [],
+      "promoted": []
+    }
+  ]
+}
