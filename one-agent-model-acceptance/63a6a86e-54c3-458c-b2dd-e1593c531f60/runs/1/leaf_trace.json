@@ -1,0 +1,46 @@
+{
+  "schema": "matrix-leaf-trace/1",
+  "task_id": "63a6a86e-54c3-458c-b2dd-e1593c531f60",
+  "attempt_no": 1,
+  "orchestrator": {
+    "skill": "matrix-orchestrator",
+    "model": "gpt-4o",
+    "delegated_to": [
+      "content-creator",
+      "coding"
+    ]
+  },
+  "leaves": [
+    {
+      "skill": "content-creator",
+      "model": "anthropic/claude-sonnet-5",
+      "provider": "anthropic",
+      "allow_hosts": [],
+      "tools": [],
+      "wrote": [],
+      "promoted": [
+        "content-creator/content-creator.md"
+      ]
+    },
+    {
+      "skill": "coding",
+      "model": "anthropic/claude-sonnet-5",
+      "provider": "anthropic",
+      "allow_hosts": [],
+      "tools": [
+        {
+          "name": "render_pdf",
+          "calls": 1,
+          "ok": 1,
+          "errors": 0
+        }
+      ],
+      "wrote": [
+        "matrix_onepager.pdf"
+      ],
+      "promoted": [
+        "coding/matrix_onepager.pdf"
+      ]
+    }
+  ]
+}
